@@ -1,0 +1,7 @@
+{
+  "name": "meuNovoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
