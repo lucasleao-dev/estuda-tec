@@ -9,6 +9,32 @@
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
+ // global.scss
+
+// Definindo a cor vermelha personalizada
+$custom-red: #157ef7;
+
+// Aplicando a cor vermelha ao texto e itens do sidemenu
+ion-menu {
+  --ion-background-color: #111111; /* Cor de fundo do sidemenu */
+}
+
+ion-menu ion-content {
+  --background: #0d0e0d; /* Cor de fundo do conteúdo do sidemenu */
+}
+
+ion-menu ion-list ion-item {
+  color: $custom-red; /* Cor do texto dos itens do menu */
+}
+
+ion-menu ion-header {
+  --background: #233140; /* Cor de fundo do cabeçalho do sidemenu */
+}
+
+ion-menu ion-title {
+  color: $custom-red; /* Cor do texto do título do cabeçalho do sidemenu */
+}
+
 /* Core CSS required for Ionic components to work properly */
 @import "@ionic/angular/css/core.css";
 
@@ -35,3 +61,6 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+
+

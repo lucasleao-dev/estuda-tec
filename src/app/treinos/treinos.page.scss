@@ -1,0 +1,62 @@
+/* treinos.page.scss */
+
+/* Fundo da página com gradiente suave */
+ion-content {
+  --background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  padding: 16px;
+}
+
+/* Estilo do searchbar para combinar com o novo fundo */
+ion-searchbar {
+  margin-bottom: 20px;
+  --background: #ffffff;
+  --icon-color: #3880ff;
+  --placeholder-color: #666;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+/* Estilo dos cartões */
+ion-card {
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/* Bordas arredondadas e sombra para os iframes de vídeo */
+ion-card iframe {
+  border: none;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do cabeçalho e título do cartão */
+ion-card-header {
+  text-align: left;
+  background-color: #f0f4f8;
+  padding: 15px;
+}
+
+ion-card-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #00796b; /* Cor destacada para o título */
+  margin-bottom: 5px;
+}
+
+ion-card-subtitle {
+  color: #555;
+  font-size: 0.9em;
+}
+
+/* Estilo do conteúdo do cartão */
+ion-card-content {
+  padding: 15px;
+  color: #333;
+  font-size: 14px;
+  background-color: #f9fafb;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

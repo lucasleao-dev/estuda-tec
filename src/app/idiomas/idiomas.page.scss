@@ -1,0 +1,57 @@
+/* idiomas.page.scss */
+
+/* Estilo para o conteúdo da página */
+ion-content {
+    padding: 16px;
+    background-color: #f0f4f8; /* Cor de fundo suave */
+  }
+  
+  /* Estilo para o cartão de idiomas */
+  ion-card {
+    border-radius: 12px; /* Bordas arredondadas do cartão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o cabeçalho do cartão */
+  ion-card-header {
+    background-color: #3880ff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+  }
+  
+  /* Estilo para o título do cartão */
+  ion-card-title {
+    font-size: 20px; /* Tamanho do título */
+    font-weight: bold; /* Negrito */
+  }
+  
+  /* Estilo para o subtítulo do cartão */
+  ion-card-subtitle {
+    font-size: 14px; /* Tamanho do subtítulo */
+    color: rgba(255, 255, 255, 0.8); /* Cor do subtítulo */
+  }
+  
+  /* Estilo para os itens da lista */
+  ion-item {
+    --background: transparent; /* Fundo transparente para itens */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 8px; /* Espaçamento entre itens */
+    transition: background 0.3s; /* Transição suave ao passar o mouse */
+  }
+  
+  /* Efeito de hover para os itens */
+  ion-item:hover {
+    background: rgba(56, 128, 255, 0.1); /* Efeito de destaque ao passar o mouse */
+  }
+  
+  /* Estilo para o botão de confirmação */
+  ion-button {
+    background-color: #3880ff; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  /* Estilo para o título da página */
+  ion-title {
+    color: #333; /* Cor do texto */
+  }
+  

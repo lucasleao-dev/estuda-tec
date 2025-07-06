@@ -1,0 +1,50 @@
+ion-content {
+  --background: #f4f5f8;
+}
+
+.favorites-list {
+  padding: 16px;
+}
+
+ion-item {
+  --background: #ffffff;
+  border-radius: 8px;
+  margin: 8px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+ion-item ion-icon {
+  font-size: 24px;
+  color: #007aff; /* Cor primária para o ícone de treino */
+}
+
+ion-item h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+ion-item p {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: 4px;
+}
+
+.empty-favorites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.empty-favorites ion-icon {
+  color: #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.empty-favorites p {
+  font-size: 16px;
+}

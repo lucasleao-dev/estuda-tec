@@ -1,0 +1,27 @@
+/* Estilo para o título na barra de navegação */
+ion-title {
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+    margin-left: 10px; /* Margem à esquerda */
+  }
+  
+  /* Estilo para o conteúdo */
+  ion-content {
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para a barra de ferramentas */
+  ion-toolbar {
+    background-color: #3880ff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    --ion-color-base: #3880ff; /* Cor base */
+  }
+  
+  /* Estilo para o título no conteúdo */
+  ion-title[size="large"] {
+    font-size: 28px; /* Tamanho maior para o título no conteúdo */
+    font-weight: bold; /* Negrito */
+    color: #555; /* Cor do texto mais escura */
+  }
+  

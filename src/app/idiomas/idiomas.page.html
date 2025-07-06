@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/configuracoes"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Idiomas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Escolha um Idioma</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Selecione seu Idioma</ion-card-title>
+      <ion-card-subtitle>Escolha o idioma que deseja usar</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-radio-group [(ngModel)]="selectedLanguage">
+          <ion-item button (click)="selectLanguage('pt')">
+            <ion-label>Português</ion-label>
+            <ion-radio slot="start" value="pt"></ion-radio>
+          </ion-item>
+          <ion-item button (click)="selectLanguage('en')">
+            <ion-label>Inglês</ion-label>
+            <ion-radio slot="start" value="en"></ion-radio>
+          </ion-item>
+          <ion-item button (click)="selectLanguage('es')">
+            <ion-label>Español</ion-label>
+            <ion-radio slot="start" value="es"></ion-radio>
+          </ion-item>
+          <ion-item button (click)="selectLanguage('fr')">
+            <ion-label>Francês</ion-label>
+            <ion-radio slot="start" value="fr"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="full" (click)="confirmSelection()" class="ion-margin-top">Confirmar Seleção</ion-button>
+</ion-content>

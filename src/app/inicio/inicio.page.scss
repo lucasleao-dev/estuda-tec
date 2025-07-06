@@ -1,0 +1,55 @@
+/* Estilo para o cabeçalho */
+ion-header {
+  background-color: #3880ff; /* Cor de fundo azul */
+}
+
+/* Estilo para o conteúdo */
+ion-content {
+  padding: 16px; /* Espaçamento interno */
+  --background: #f4f4f4; /* Cor de fundo clara */
+}
+
+/* Estilo dos cartões */
+ion-card {
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 10px 0; /* Margem entre os cartões */
+  overflow: hidden; /* Para garantir que as bordas arredondadas funcionem corretamente */
+}
+
+/* Estilo das imagens nos cartões */
+ion-card img {
+  width: 100%; /* Imagem ocupa toda a largura do cartão */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos títulos dos cartões */
+ion-card-title {
+  font-size: 24px; /* Tamanho da fonte do título */
+  font-weight: bold; /* Negrito */
+  color: #333; /* Cor do texto */
+}
+
+/* Estilo dos subtítulos dos cartões */
+ion-card-subtitle {
+  font-size: 14px; /* Tamanho do subtítulo */
+  color: #666; /* Cor do texto mais suave */
+}
+
+/* Estilo para o conteúdo dos cartões */
+ion-card-content {
+  font-size: 16px; /* Tamanho da fonte do conteúdo */
+  color: #444; /* Cor do texto */
+  line-height: 1.5; /* Altura da linha para legibilidade */
+}
+
+/* Estilo do título do cabeçalho colapsado */
+ion-header[collapse="condense"] {
+  background-color: #3880ff; /* Cor de fundo azul */
+}
+
+/* Estilo do título maior */
+ion-title[size="large"] {
+  font-size: 28px; /* Tamanho maior para o título */
+  color: white; /* Cor do texto */
+}

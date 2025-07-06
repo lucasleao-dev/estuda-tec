@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/configuracoes">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      Política de Privacidade
+      <ion-icon name="print" (click)="printPolicy()" class="print-icon"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Política de Privacidade</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="privacy-container">
+    <h2>Política de Privacidade</h2>
+    
+    <p>
+      Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais ao usar nosso aplicativo.
+    </p>
+    
+    <h3>Informações que Coletamos</h3>
+    <ul>
+      <li>Dados pessoais, como nome e endereço de e-mail.</li>
+      <li>Dados de uso, incluindo informações sobre como você usa o aplicativo.</li>
+    </ul>
+
+    <h3>Uso das Informações</h3>
+    <p>
+      Usamos as informações coletadas para:
+    </p>
+    <ul>
+      <li>Fornecer e manter nosso serviço.</li>
+      <li>Notificá-lo sobre alterações em nosso serviço.</li>
+      <li>Permitir que você participe de recursos interativos do nosso serviço quando optar por fazê-lo.</li>
+    </ul>
+
+    <h3>Direitos do Usuário</h3>
+    <p>
+      Você tem o direito de acessar, corrigir ou excluir suas informações pessoais. Para exercer esses direitos, entre em contato conosco.
+    </p>
+
+    <h3>Alterações a Esta Política</h3>
+    <p>
+      Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações, publicando a nova Política de Privacidade nesta página.
+    </p>
+
+    <p>
+      Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco.
+    </p>
+  </div>
+</ion-content>

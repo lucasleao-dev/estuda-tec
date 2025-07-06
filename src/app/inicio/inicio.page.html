@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="openMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Card 1: Treinos -->
+  <ion-card routerLink="/treinos">
+    <img alt="Treinos" src="https://via.placeholder.com/300x150/3498db/ffffff?text=Treinos" />
+    <ion-card-header>
+      <ion-card-title>Treinos</ion-card-title>
+      <ion-card-subtitle>Treino de resistência</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Descubra os melhores treinos para resistência.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Card 2: Treino de Resistência -->
+  <ion-card routerLink="/resistencia">
+    <img alt="Treino de Resistência" src="https://via.placeholder.com/300x150/2ecc71/ffffff?text=Resist%C3%AAncia" />
+    <ion-card-header>
+      <ion-card-title>Resistência</ion-card-title>
+      <ion-card-subtitle>Treino de resistência</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Melhore sua resistência física com nossos treinos especializados.
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Card 3: Avaliação Física -->
+  <ion-card routerLink="/avaliacaofisica">
+    <img alt="Avaliação Física" src="https://via.placeholder.com/300x150/e74c3c/ffffff?text=Avalia%C3%A7%C3%A3o+F%C3%ADsica" />
+    <ion-card-header>
+      <ion-card-title>Avaliação Física</ion-card-title>
+      <ion-card-subtitle>Conheça seu condicionamento físico</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Realize uma avaliação física para acompanhar seu progresso.
+    </ion-card-content>
+  </ion-card>
+</ion-content>

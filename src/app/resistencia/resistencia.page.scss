@@ -1,0 +1,61 @@
+/* resistencia.page.scss */
+
+/* Fundo da página com gradiente suave */
+ion-content {
+  --background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  padding: 16px;
+}
+
+/* Estilo dos cabeçalhos */
+ion-header {
+  background-color: rgba(255, 255, 255, 0.9); /* Levemente translúcido */
+}
+
+ion-toolbar {
+  --background: #00796b; /* Cor do toolbar */
+}
+
+/* Estilo do título principal */
+ion-title {
+  color: #ffffff; /* Cor do texto do título */
+}
+
+/* Estilo dos itens da lista */
+ion-item {
+  margin-bottom: 15px; /* Espaçamento entre os itens */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Fundo branco para itens da lista */
+}
+
+/* Estilo dos rótulos */
+ion-label {
+  color: #555;
+}
+
+/* Estilo para inputs, selects e textareas */
+ion-input, ion-select, ion-textarea {
+  background-color: #f9f9f9; /* Fundo claro para campos de entrada */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo dos botões */
+ion-button {
+  border-radius: 5px;
+}
+
+/* Estilo do footer */
+ion-footer {
+  background-color: rgba(255, 255, 255, 0.9); /* Levemente translúcido */
+}
+
+/* Estilo dos botões no footer */
+ion-button[color="primary"] {
+  background-color: #00796b; /* Cor do botão "Iniciar Treino" */
+  color: white; /* Texto branco */
+}
+
+ion-button[color="danger"] {
+  background-color: #e53935; /* Cor do botão "Parar Treino" */
+  color: white; /* Texto branco */
+}
